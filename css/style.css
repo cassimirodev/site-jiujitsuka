@@ -1,0 +1,319 @@
+body {
+	margin: 0;
+	padding: 0;
+    font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+header {
+
+    background: black;
+    padding-top: 10px;
+    border: 0 0;
+    border: color(grey);
+    height: 50%;
+}
+
+h1 {
+
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 900px;
+    text-align: right;
+    vertical-align: center; 
+    position: relative;
+    
+}
+
+
+h1 a img {
+    height: 200px;
+    margin-left: 100px;
+}
+
+
+ul.principal {
+    display: inline;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+
+
+}
+
+li.linha {
+    display: inline;
+    padding: 0px 0px 0px 0px ;
+    margin: 0px 16px 0px 20px;
+    font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+   font-size: 30px;
+    
+    
+}
+
+li.linha a {
+
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+
+
+}
+
+li.linha a:hover {
+    color: grey;
+    transition: color 0.5s;
+}
+
+.secaotitulo {
+	text-align: center;
+	font-size: 40px;
+	margin: 46px 0 30px 0;
+}
+
+article {
+	width: 100%;
+	margin-right: 24px;
+	display: inline-block;
+}
+
+article:last-child {
+	margin-right: 0;
+}
+
+article p {
+	text-align: justify;
+	font-size: 30px;
+}
+
+.blocoImagens {
+	width: 620px;
+	margin: 50px 12px 0 0;
+	display: inline-block;
+	text-align: center;
+}
+
+.blocoImagens:last-child {
+	margin: 50px 0 0 0;
+}
+
+.blocoImagens figure {
+	margin: 0;
+}
+
+.blocoImagens figure img {
+	width: 100%;
+	opacity: 1;
+	transition: opacity 0.2s;
+}
+
+.blocoImagens figure img:hover {
+	opacity: 0.7;
+	transition: opacity 0.2s;
+}
+
+.blocoImagens figure a img:last-child {
+
+    height: 417px;
+
+
+}
+
+.blocoImagens h2 {
+	margin-top: 5px;
+    text-decoration: none;
+
+}
+
+
+
+
+footer {
+
+    background-color: black;
+    margin:0px 0px 0px 0px;
+}
+
+
+footer h1 {
+    
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 23%;
+
+}
+
+/* ========Historia=========== */ 
+
+.tituloHistoria {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.tituloHistoria h1 {
+
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size   : 40px;
+}
+
+.imagem-subtitulo-historia {
+
+    
+    display: flex;
+    justify-content: center
+
+}
+
+.imagem-subtitulo-historia img {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.texto-principal {
+
+    
+    display: block;
+    justify-content: center;
+    width: 100%;            
+
+}
+
+
+.texto-principal p {
+    
+    white-space: normal;
+    word-wrap: break-word; 
+    line-height: 1.6; 
+    font-size: 25px;
+    margin: 20px 0px 0px 0px ;
+    color: #333;
+    text-align: justify;
+    justify-content: center;
+}
+
+.lista1 {
+
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.blocoImagens {
+	width: 620px;
+	margin: 50px 12px 0 0;
+	display: inline-block;
+	text-align: center;
+}
+
+.blocoImagensH:last-child {
+	margin: 50px 0 0 0;
+}
+
+.blocoImagensH figure {
+	margin: 0;
+}
+
+.blocoImagensH figure img {
+	width: 100%;
+	opacity: 1;
+	transition: opacity 0.2s;
+}
+
+.blocoImagensH figure img:hover {
+	opacity: 0.7;
+	transition: opacity 0.2s;
+}
+
+.blocoImagensH figure a img:last-child {
+
+    height: 417px;
+
+
+}
+
+.blocoImagensH h2 {
+	margin-top: 5px;
+    text-decoration: none;
+
+}
+
+
+
+.interna {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    vertical-align: text-top;
+}
+
+.academia {
+    margin-bottom: 50px;
+}
+
+.tituloAcademia {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.legenda {
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px 0;
+    line-height: 30px;
+}
+
+.figuraLegenda {
+    text-align: center;
+    margin: 0;
+}
+
+.figuraLegenda img {
+    width: 100%;
+    max-width: 300px;
+}
+
+
+.glossary h2 {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.glossary p {
+    padding: 10px;
+    border-bottom: 1px #ccc dotted;
+}
+
+.glossary p strong {
+    color: #333;
+}
