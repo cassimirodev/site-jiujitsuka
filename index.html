@@ -1,79 +1,79 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jiu-Jitsuka</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="icon" type="image/png" href="img/favicon-32x32.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiu-Jitsuka</title>
+    <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
-<header>
-    <div class="container">
-    <h1>
-       <a href="index.html" target="_self"><img src="img/jiujitsuka-lado2.png" alt="Logo Jiu-Jitsu"></a> 
-    </h1>
-    <nav>
-        <ul class="principal">
-            <li class="linha"><a href="index.html">Home</a></li>
-            <li class="linha"><a href="historia.html">História</a></li>
-            <li class="linha"><a href="academias.html">Academias</a></li>
-            <li class="linha"><a href="termos.html">Termos</a></li>
-        </ul>
-</nav>
-</div>
-</header>
-<main>
-    <section class="container">
-        <h3 class="secaotitulo">Jiu-Jitsu, a arte suave!</h3>
-    </section>
 
-    <section class="container">
-        <article>
-            <p>O Jiu-Jitsu brasileiro ou, lá fora, o Brazilian Jiu-Jitsu ou BJJ (grafado também como jujitsu ou jujutsu) é uma arte marcial de raiz japonesa que se utiliza essencialmente de golpes de alavancas, torções e pressões para levar um oponente ao chão e dominá-lo. Literalmente, jū em japonês significa “suavidade”, “brandura”, e jutsu, “arte”, “técnica”. Daí seu sinônimo literal, “arte suave”.</p>
-        </article>
-    </section>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid container">
+                <a class="navbar-brand" href="#">
+                    <img id="logo-site" src="assets/images/logo/jiujitsuka-logo-rebrand-with-name.png"
+                        alt="Logo Site Jiu-JitsuKa">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content"
+                    aria-controls="navbar-content" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-content">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <br>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Graduação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Posições</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Glóssario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Academias</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
 
-    <section class="container">
+        <section class="container container-fluid py-5">
+            <div class="row align-items-center">
+              <div class="col-md-6 mb-4 mb-md-0 text-start">
+                <h1 class="fw-bold">Você é <span style="color: brown;">iniciante</span> no Jiu-Jitsu?</h1>
+                <p style="text-align: justify;" class="lead">
+                  Você está no lugar certo, aqui você aprenderá dicas, como funciona a graduação no jiu-jitsu, posições de lutas e até mesmo termos do meio.
+                </p>
+              </div>
+              <div class="col-md-6 text-center">
+                <img src="assets/images/generics-img/judoka.png" alt="Judoka" class="img-fluid" width="100%">
+              </div>
+            </div>
+          </section>
+        </section>
+        
 
-        <div class="blocoImagens">
-            <figure>
-                <a href="#"><img src="img/jiu-img1.jpeg" alt="graduacao jiujitsu"></a>
-            </figure>
-            <h2>Disciplina</h2>
-        </div><!-- 
+    </main>
 
-         --><div class="blocoImagens">
-            <figure>
-                <a href="#"><img src="img/jiu-img2.jpg" alt="combate jiujitsu"></a>
-            </figure>
-            <h2>Competição</h2>
-        </div><!-- 
-
-         --><div class="blocoImagens">
-            <figure>
-                <a href="#"><img src="img/why-gracie.jpg" alt="Classe jiujitsu"></a>
-            </figure>
-            <h2>Família</h2>
-        </div>
-
-    </section>
-</main>
-<footer>
-<div class="container">
-    <div class="imagemFooter">
-        <h1>
-            <img src="img/logo-jiujitsuka.png" alt="logo-jiujitsuka">
-        </h1>
-    </div>
-</div>
-</footer>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+</main>
+
+
+<script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
